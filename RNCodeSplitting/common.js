@@ -2,9 +2,9 @@
  * @format
  */
 import * as React from 'react';
-import { AppRegistry } from 'react-native';
+import { AppRegistry, Text } from 'react-native';
 
 const App = () => {
-  return null;
+  return <Text>Hello world</Text>;
 }
 AppRegistry.registerComponent('COMMON', () => App);
